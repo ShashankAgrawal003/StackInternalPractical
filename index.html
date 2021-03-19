@@ -1,183 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
     <title>Final Practical</title>
 
 
 </head>
 <style>
-    #header{
-        display:flex;
-        
-    }
-    /* #headerleft{
-        float:left;
-    }
-    #headerright{
-        float:right;
-    } */
-    /* ul{
-        list-style:none;
-        margin:20px;
-        padding:30px;
-    }
-    ul li{
-        float:right;
-        
-    } */
-    .leftside{
-        float:left;
-        width:30%;
-    }
-    .rightside{
-        float:right;
-       
-        width:70%;
-    }
-    h3{
-        color:lightblue;
-        margin:20px;
-        margin-top:150px;
-    }
-    h2{
-        color:darkblue;
-        font-weight: bold;
-        margin:20px;
-        font-size: 80px;;
-    }
-    span{
-        font-weight: bold;
-    }
-    #section{
-        display:flex;
-    }
-    #logo{
-        height:100%;
-        width:60%;
+    #header {
+        display: flex;
+        width: 100%;
+
+        padding: 0 10px;
+
+
+
     }
 
-   p{
-       margin:20px;
-       font-size: 20px;
-   }
-       
-        .section:after{
-            content: ' ';
-            display: block;
-            clear: both;
-        }
-        #content:after{
-            content: ' ';
-            display: block;
-            clear: both;
-        }
-        
-        #header{
-            width: 100%;
-            height: 70px;
-            padding: 0 20px;
-            background-color:white;
-            position: fixed;
-            top: 0;
-            right: 0;
-        }
-        #header .navBar{
-            float: right;
-            list-style-type: none;
-        }   
-        .navBar li{
-            display: inline-block;
-            line-height: 70px;
-        }
-        .navBar li a {
-            color:white;
-            font-size: 24px;
-            font-weight: bold;
-            text-decoration: none;
-            text-transform: uppercase;
-            padding:  0px 20px;
-            transition: .4s;
-         }
-        .navBar li a:hover {
-            color: skyblue;
-            }
-            #design{
-                margin:20px;
-                padding:30px;
-                background-color: grey;
-            }
-            #gap{
-                margin-left:250px;
-            }
-        
+    #logo {
+
+        width: 60%;
+        line-height: 50px;
+        margin-top:20px;
+    }
+
+    #header .navBar {
+        margin-top:15px;
+        float: right;
+        list-style-type: none;
+    }
+
+    .navBar li {
+        display: inline-block;
+        line-height: 40px;
+    }
+
+    .navBar li a {
+        color: black;
+        font-size: 15px;
+        font-weight: bold;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 0px 5px;
+        transition: .4s;
+    }
+
+    .navBar li a:hover {
+        color: skyblue;
+    }
+
+
+    h3 {
+        color: lightblue;
+        margin: 20px;
+        margin-top: 80px;
+    }
+
+    h2 {
+        color: darkblue;
+        font-weight: bold;
+        margin: 20px;
+        font-size: 50px;
+
+    }
+
+    span {
+        font-weight: bold;
+    }
+
+    #section {
+        display: flex;
+    }
+
+    .leftside {
+        float: left;
+        width: 30%;
+    }
+
+    .rightside {
+        float: right;
+
+        width: 70%;
+    }
+
+
+
+    p {
+        margin: 20px;
+        font-size: 20px;
+    }
+
+
+
+   
+
+    #design {
+        margin: 20px;
+        padding: 30px;
+        background-color: grey;
+    }
+
+   
+
+    #iconss {
+        margin-left: 80px;
+    }
 </style>
+
 <body>
     <div class="main-container">
         <div id="header">
             <div id="headerleft">
-            <img id="logo"src="leadGen Logo.png">
-                
+                <img id="logo" src="leadGen Logo.png">
+
             </div>
             <div class="navBar">
                 <ul>
-                    <li>
-                        ABOUT |
+                    <li><a href="#">ABOUT </a>
+
+                    </li>
+                    <li><a href="#">SERVICES </a>
+
+                    </li>
+
+                    <li><a href="#">FEATURES </a>
+
+                    </li>
+
+                    <li><a href="#">SCREENSHOT </a>
+
+                    </li>
+                    <li><a href="#"> ABOUT </a>
+
+                    </li>
+                    <li><a href="#"> TESTMONIALS </a>
+
+
+                    </li>
+                    <li><a href="#"> PRICING </a>
+                    </li>
+                    <li id="iconss">
+                        <a class="btn-floating btn-fb mx-1">
+                            <i class="fab fa-facebook-f"> </i>
+                        </a>
                     </li>
                     <li>
-                        SERVICES |
-                    </li>
-                    
-                    <li>
-                        FEATURES |
-                    </li>
-                    
-                    <li>
-                        SCREENSHOT |
+                        <a class="btn-floating btn-tw mx-1">
+                            <i class="fab fa-twitter"> </i>
+                        </a>
                     </li>
                     <li>
-                        ABOUT |
+                        <a class="btn-floating btn-gplus mx-1">
+                            <i class="fab fa-google-plus-g"> </i>
+                        </a>
                     </li>
-                    <li>TESTMONIALS |</li>
-                    <li>PRICING |</li>
-                    <li><i class="fa fa-facebook-official" aria-hidden="true"></i</li>
-                    <li id="gap">Facebook |</li>
-                    <li>Google|</li>
-                    <li>Instagram </li>
+                    <li>
+                        <a class="btn-floating btn-li mx-1">
+                            <i class="fab fa-linkedin-in"> </i>
+                        </a>
+                    </li>
+
                 </ul>
             </div>
-            
+
 
         </div>
         <hr>
         <div id="section">
             <div id="leftside">
                 <h3>Download for Android &iOS</h3>
-            <h2>Download Now</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, 
-                dolores quam magni facere, accusamus at sit ullam provident sint consequuntur 
-                vel dolor temporibus similique voluptates laudantium inventore autem nesciunt et 
-                ipsa! Vitae culpa animi eligendi unde ipsum hic dolores sit, nam dolorum placeat.
-                 Voluptatem fuga asperiores facere in explicabo omnis.</p>
-                 <button id="design">
-            Available on the app store
-                 </button>
-                 <button id="design">
-                Get it on googke play
-                 </button>
+                <h2>Download Now</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+                    dolores quam magni facere, accusamus at sit ullam provident sint consequuntur
+                    vel dolor temporibus similique voluptates laudantium inventore autem nesciunt et
+                    ipsa! Vitae culpa animi eligendi unde ipsum hic dolores sit, nam dolorum placeat.
+                    Voluptatem fuga asperiores facere in explicabo omnis.</p>
+                <button id="design">
+                    Available on the app store
+                </button>
+                <button id="design">
+                    Get it on googke play
+                </button>
             </div>
             <div id="rightside">
                 <img src="Realme-2-3.jpg">
             </div>
 
         </div>
-        
+
     </div>
-    
-    
+
+
 </body>
+
 </html>
